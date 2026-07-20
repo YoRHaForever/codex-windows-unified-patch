@@ -1,0 +1,18 @@
+# Local runtimes and backups
+app/
+*.official
+*.before-long-paste-patch
+patch-status.json
+unified-status.json
+
+# Generated launchers, shortcuts, and logs
+Launch-Codex-Unified.ps1
+Launch-Codex-Unified.vbs
+Launch-Codex-Chinese-Menu.vbs
+*.lnk
+logs/
+shortcut-backups/
+
+# Tool caches
+node_modules/
+.npm/
